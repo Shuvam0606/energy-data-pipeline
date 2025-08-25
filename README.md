@@ -10,14 +10,14 @@ By the end of this project, the pipeline will produce **analytics-ready data** t
 ---
 
 ## 🏗️ Architecture
-
+```mermaid
 flowchart LR
     A[Open Energy Dataset] -->|Ingest| B[Bronze Layer (Raw Data in ADLS)]
     B -->|Clean & Transform| C[Silver Layer (Standardized Data in ADLS)]
     C -->|Aggregate & Optimize| D[Gold Layer (Analytics-Ready Data in ADLS)]
     D -->|Visualize| E[Power BI / Reporting]
     C -->|Exploration| F[Databricks Notebooks (PySpark)]
-
+```
 ---
 
 ## 🔧 Azure Resources
