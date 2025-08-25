@@ -5,7 +5,7 @@ This project demonstrates how to build a **Big Data Pipeline** for the **Energy 
 
 The pipeline follows the **Medallion Architecture (Bronze → Silver → Gold)** to ensure scalability, performance, and reliability in handling large datasets from the **Open Energy System Database (OPSD)**.  
 
-By the end of this project, the pipeline will produce **analytics-ready data** that can be used to analyze energy generation, consumption, and renewable energy trends—similar to real-world Data Engineering workflows in power companies.
+By the end of this project, the pipeline will produce **analytics-ready data** that can be used to analyze energy generation, consumption, and renewable energy trends, similar to real-world Data Engineering workflows in power companies.
 
 ---
 
@@ -49,17 +49,15 @@ flowchart LR
 ---
 
 ## 📸 Screenshots
-Screenshots of setup, transformations, and dashboards will be added as implementation progresses.  
-
-All screenshots will be stored in a `/screenshots/` folder.
+ 
+All screenshots are stored in a `/screenshots/` folder.
 
 ---
 
 ## 🚀 Business Impact
 This pipeline simulates what a **Data Engineer in the Energy/Utilities sector** would build:  
 - Provides **scalable big data processing** on cloud.  
-- Enables **data-driven decision-making** (renewable adoption, peak demand analysis).  
-- Serves as a **portfolio project** to showcase Big Data + Azure Data Engineering skills.  
+- Enables **data-driven decision-making** (renewable adoption, peak demand analysis). 
 
 ---
 
@@ -76,7 +74,7 @@ This pipeline simulates what a **Data Engineer in the Energy/Utilities sector** 
 ```
 energy-data-pipeline/
 │── notebooks/           # Databricks PySpark notebooks
-│── scripts/             # Helper scripts (if needed)
+│── scripts/             # Helper scripts
 │── screenshots/         # Setup & execution screenshots
 │── README.md            # Project documentation
 ```
